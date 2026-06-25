@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lakshminarayana Nagirikanti | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+#tsparticles{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+}
+
+a{
+text-decoration:none;
+color:white;
+}
+
+section{
+padding:100px 10%;
+}
+
+.glass{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.1);
+box-shadow:0 8px 32px rgba(0,0,0,.3);
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#8b5cf6;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+padding:25px;
+border-radius:20px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(139,92,246,.5);
+}
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(0,0,0,.2);
+backdrop-filter:blur(15px);
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#8b5cf6;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+flex-wrap:wrap;
+padding:120px 10%;
+}
+
+.hero-content{
+max-width:700px;
+padding:40px;
+border-radius:25px;
+}
+
+.hero-content h1{
+font-size:65px;
+line-height:1.1;
+}
+
+.hero-content span{
+color:#8b5cf6;
+}
+
+.typing{
+font-size:28px;
+margin:15px 0;
+color:#60a5fa;
+height:40px;
+}
+
+.hero-content p{
+line-height:1.8;
+color:#d1d5db;
+}
+
+.hero-image img{
+width:320px;
+height:320px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #8b5cf6;
+box-shadow:0 0 40px rgba(139,92,246,.6);
+}
+
+.btns{
+display:flex;
+gap:15px;
+margin-top:25px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:12px 25px;
+background:#8b5cf6;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+margin-top:30px;
+}
+
+.stat{
+padding:15px;
+border-radius:15px;
+text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:45px;
+}
+
+.stats{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="tsparticles"></div>
+
+<nav>
+
+<div class="logo">LANY</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#dashboard">Dashboard</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content glass">
+
+<h3>Hello, I'm</h3>
+
+<h1>
+Lakshminarayana
+<br>
+<span>Nagirikanti</span>
+</h1>
+
+<div class="typing">
+<span id="typing"></span>
+</div>
+
+<p>
+Final Year B.Tech CSE Student (2027),
+Software Development Intern at GaoTech,
+Video Editor and Aspiring Full Stack Developer.
+Passionate about building products, solving problems,
+and creating content that helps people.
+</p>
+
+<div class="btns">
+
+<a href="mailto:lanyspace15@gmail.com?subject=Hiring Opportunity"
+class="btn">
+Hire Me
+</a>
+
+<a href="assets/resume.pdf"
+download
+class="btn">
+Download Resume
+</a>
+
+<a href="https://github.com/LANY-11"
+target="_blank"
+class="btn">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/lakshminarayana-nagirikanti-a37719325"
+target="_blank"
+class="btn">
+LinkedIn
+</a>
+
+</div>
+
+<div class="stats">
+
+<div class="stat glass">
+<h2>5+</h2>
+<p>Projects</p>
+</div>
+
+<div class="stat glass">
+<h2>1</h2>
+<p>Internship</p>
+</div>
+
+<div class="stat glass">
+<h2>10+</h2>
+<p>Technologies</p>
+</div>
+
+<div class="stat glass">
+<h2>50+</h2>
+<p>Video Edits</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="assets/profile.jpg"
+alt="Profile Picture">
+
+</div>
+
+</section>
+<!-- ABOUT SECTION -->
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="card glass">
+
+<p style="line-height:2; text-align:center;">
+
+I am a Final Year Computer Science Engineering student from
+Avanthi Institute of Engineering & Technology.
+
+Currently working as a Software Development Intern at GaoTech,
+where I am gaining practical experience in software development,
+problem-solving and modern technologies.
+
+Apart from coding, I enjoy Video Editing, Content Creation,
+Personal Branding and learning emerging technologies like
+AI Tools, Cloud Computing and Full Stack Development.
+
+My goal is to become a highly skilled Software Engineer
+while building impactful digital products.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- DASHBOARD -->
+
+<section id="dashboard">
+
+<h2 class="section-title">📌 Current Dashboard</h2>
+
+<div class="grid">
+
+<div class="card glass">
+<h3>🎓 Education</h3>
+<p>Final Year B.Tech CSE</p>
+<p>Graduation: 2027</p>
+</div>
+
+<div class="card glass">
+<h3>💼 Current Role</h3>
+<p>Software Development Intern</p>
+<p>GaoTech</p>
+</div>
+
+<div class="card glass">
+<h3>📚 Currently Learning</h3>
+<p>React.js</p>
+<p>Cloud Computing</p>
+<p>Full Stack Development</p>
+</div>
+
+<div class="card glass">
+<h3>🎯 Goal</h3>
+<p>
+Become a Full Stack Developer and Software Engineer.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CURRENT JOURNEY -->
+
+<section id="journey">
+
+<h2 class="section-title">🚀 What I'm Doing Now</h2>
+
+<div class="grid">
+
+<div class="card glass">
+<h3>💻 Development</h3>
+<p>
+Building web applications and improving
+frontend development skills.
+</p>
+</div>
+
+<div class="card glass">
+<h3>📚 Learning</h3>
+<p>
+Exploring React.js, Backend Development,
+Cloud Technologies and AI Tools.
+</p>
+</div>
+
+<div class="card glass">
+<h3>🎬 Content Creation</h3>
+<p>
+Creating videos and building personal branding.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- LEARNING ROADMAP -->
+
+<section id="roadmap">
+
+<h2 class="section-title">📈 Learning Roadmap</h2>
+
+<div class="grid">
+
+<div class="card glass">
+<h3>HTML & CSS</h3>
+<p>✅ Completed</p>
+</div>
+
+<div class="card glass">
+<h3>Python</h3>
+<p>✅ Completed</p>
+</div>
+
+<div class="card glass">
+<h3>JavaScript</h3>
+<p>🔄 In Progress</p>
+</div>
+
+<div class="card glass">
+<h3>React.js</h3>
+<p>⏳ Learning</p>
+</div>
+
+<div class="card glass">
+<h3>Node.js</h3>
+<p>⏳ Planned</p>
+</div>
+
+<div class="card glass">
+<h3>Cloud Computing</h3>
+<p>⏳ Planned</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="grid">
+
+<!-- Technical Skills -->
+
+<div class="card glass">
+
+<h3>💻 Technical Skills</h3>
+
+HTML
+<div class="bar"><span style="width:95%"></span></div>
+
+CSS
+<div class="bar"><span style="width:90%"></span></div>
+
+JavaScript
+<div class="bar"><span style="width:75%"></span></div>
+
+Python
+<div class="bar"><span style="width:85%"></span></div>
+
+C
+<div class="bar"><span style="width:80%"></span></div>
+
+Git & GitHub
+<div class="bar"><span style="width:85%"></span></div>
+
+</div>
+
+<!-- Video Editing -->
+
+<div class="card glass">
+
+<h3>🎬 Video Editing</h3>
+
+CapCut
+<div class="bar"><span style="width:95%"></span></div>
+
+Cinematic Editing
+<div class="bar"><span style="width:90%"></span></div>
+
+Reels Editing
+<div class="bar"><span style="width:90%"></span></div>
+
+Transitions
+<div class="bar"><span style="width:85%"></span></div>
+
+Color Grading
+<div class="bar"><span style="width:75%"></span></div>
+
+</div>
+
+<!-- Soft Skills -->
+
+<div class="card glass">
+
+<h3>🤝 Soft Skills</h3>
+
+Communication
+<div class="bar"><span style="width:90%"></span></div>
+
+Leadership
+<div class="bar"><span style="width:85%"></span></div>
+
+Creativity
+<div class="bar"><span style="width:95%"></span></div>
+
+Problem Solving
+<div class="bar"><span style="width:90%"></span></div>
+
+Team Work
+<div class="bar"><span style="width:88%"></span></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICATIONS -->
+
+<section id="certifications">
+
+<h2 class="section-title">🏆 Certifications</h2>
+
+<div class="grid">
+
+<div class="card glass">
+<h3>NTSO Certification</h3>
+<p>Academic Achievement</p>
+</div>
+
+<div class="card glass">
+<h3>NASA Program Participation</h3>
+<p>Science & Innovation Exposure</p>
+</div>
+
+<div class="card glass">
+<h3>Future Certifications</h3>
+<p>Add AWS, Google, Microsoft, etc.</p>
+</div>
+
+</div>
+
+</section>
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2 class="section-title">🚀 Projects</h2>
+
+<div class="grid">
+
+<div class="card glass">
+<h3>Portfolio Website</h3>
+<p>
+Modern personal portfolio website with glassmorphism UI,
+animations and responsive design.
+</p>
+</div>
+
+<div class="card glass">
+<h3>QR File Sharing Website</h3>
+<p>
+Generate QR codes to instantly share files,
+images and videos across devices.
+</p>
+</div>
+
+<div class="card glass">
+<h3>Smart Attendance System</h3>
+<p>
+Attendance management system using facial recognition
+and automation concepts.
+</p>
+</div>
+
+<div class="card glass">
+<h3>YouTube / Instagram Downloader</h3>
+<p>
+Download and manage media content from supported
+platforms.
+</p>
+</div>
+
+<div class="card glass">
+<h3>AI Notes App</h3>
+<p>
+Automatically generate notes from lectures and
+online classes using AI.
+</p>
+</div>
+
+<div class="card glass">
+<h3>Future SaaS Projects</h3>
+<p>
+Building real-world software solutions and startup ideas.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+<h2 class="section-title">💼 Experience</h2>
+
+<div class="card glass">
+
+<h3>Software Development Intern</h3>
+
+<h4 style="color:#8b5cf6;margin:10px 0;">
+GaoTech
+</h4>
+
+<p style="line-height:2;">
+
+Working as a Software Development Intern and gaining
+hands-on experience in software development,
+modern workflows, problem solving and real-world projects.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+<h2 class="section-title">🎓 Education</h2>
+
+<div class="timeline">
+
+<div class="card glass">
+
+<h3>B.Tech Computer Science Engineering</h3>
+
+<p>
+Avanthi Institute of Engineering & Technology
+</p>
+
+<p>
+Expected Graduation: 2027
+</p>
+
+<p>
+Status: Final Year Student
+</p>
+
+</div>
+
+<div class="card glass">
+
+<h3>Diploma in Electronics & Communication Engineering</h3>
+
+<p>
+Nuzvid Polytechnic College
+</p>
+
+<p>
+CGPA: 84.48%
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">📬 Contact Me</h2>
+
+<div class="card glass">
+
+<p style="margin-bottom:20px;">
+Interested in working together?
+Let's connect.
+</p>
+
+<div class="btns" style="justify-content:center;">
+
+<a href="mailto:lanyspace15@gmail.com?subject=Hiring Opportunity"
+class="btn">
+📧 Hire Me
+</a>
+
+<a href="https://github.com/LANY-11"
+target="_blank"
+class="btn">
+🐙 GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/lakshminarayana-nagirikanti-a37719325"
+target="_blank"
+class="btn">
+💼 LinkedIn
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="glass">
+
+<h3 style="margin-bottom:10px;">
+Lakshminarayana Nagirikanti
+</h3>
+
+<p>
+Final Year B.Tech CSE | GaoTech Intern |
+Full Stack Developer | Video Editor
+</p>
+
+<p style="margin-top:15px;">
+© 2027 All Rights Reserved
+</p>
+
+</footer>
+
+<!-- TYPING EFFECT -->
+
+<script>
+
+const words = [
+"Software Developer",
+"GaoTech Intern",
+"Video Editor",
+"Full Stack Learner",
+"Content Creator",
+"Future Software Engineer"
+];
+
+let i = 0;
+let j = 0;
+let current = "";
+let isDeleting = false;
+
+function type(){
+
+current = words[i];
+
+if(!isDeleting){
+
+document.getElementById("typing").textContent =
+current.substring(0,j++);
+
+}else{
+
+document.getElementById("typing").textContent =
+current.substring(0,j--);
+
+}
+
+if(j === current.length + 1){
+isDeleting = true;
+}
+
+if(j === 0){
+isDeleting = false;
+i = (i + 1) % words.length;
+}
+
+setTimeout(type,isDeleting ? 50 : 100);
+
+}
+
+type();
+
+</script>
+
+<!-- PARTICLES JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+<script>
+
+tsParticles.load("tsparticles",{
+
+particles:{
+
+number:{
+value:80
+},
+
+size:{
+value:2
+},
+
+move:{
+enable:true,
+speed:1
+},
+
+links:{
+enable:true,
+distance:150,
+opacity:0.3
+},
+
+color:{
+value:"#8b5cf6"
+}
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
